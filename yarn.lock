@@ -899,7 +899,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/compiler-sfc@npm:3.2.23":
+"@vue/compiler-sfc@npm:3.2.23, @vue/compiler-sfc@npm:^3.2.23":
   version: 3.2.23
   resolution: "@vue/compiler-sfc@npm:3.2.23"
   dependencies:
@@ -989,7 +989,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/test-utils@npm:^2.0.0-rc.17":
+"@vue/test-utils@npm:next":
   version: 2.0.0-rc.17
   resolution: "@vue/test-utils@npm:2.0.0-rc.17"
   peerDependencies:
@@ -4854,16 +4854,18 @@ __metadata:
   dependencies:
     "@types/jest": ^27.0.3
     "@vitejs/plugin-vue": ^1.9.3
-    "@vue/test-utils": ^2.0.0-rc.17
+    "@vue/compiler-sfc": ^3.2.23
+    "@vue/test-utils": next
     "@vueuse/core": ^7.1.2
     autoprefixer: ^10.4.0
     jest: ^27.4.3
+    lodash: ^4.17.21
     postcss: ^8.4.4
     sass: ^1.44.0
     tailwindcss: ^2.2.19
     vite: ^2.6.4
     vue: ^3.2.16
-    vue-jest: ^5.0.0-alpha.10
+    vue3-jest: ^27.0.0-alpha.1
   languageName: unknown
   linkType: soft
 
@@ -5093,9 +5095,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-jest@npm:^5.0.0-alpha.10":
-  version: 5.0.0-alpha.10
-  resolution: "vue-jest@npm:5.0.0-alpha.10"
+"vue3-jest@npm:^27.0.0-alpha.1":
+  version: 27.0.0-alpha.2
+  resolution: "vue3-jest@npm:27.0.0-alpha.2"
   dependencies:
     "@babel/plugin-transform-modules-commonjs": ^7.2.0
     chalk: ^2.1.0
@@ -5105,9 +5107,9 @@ __metadata:
     tsconfig: ^7.0.0
   peerDependencies:
     "@babel/core": 7.x
-    babel-jest: ">= 24 < 27"
-    jest: ">= 24 < 27 "
-    ts-jest: ">= 24 < 27 "
+    babel-jest: 27.x
+    jest: 27.x
+    ts-jest: 27.x
     typescript: ">= 3.x"
     vue: ^3.0.0-0
   peerDependenciesMeta:
@@ -5115,7 +5117,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 88f7959ebff421dc0c489825b86497d13f1dfe9edcdf4090f6355c683a2264c9cc165fa9e804de63b0ab271d37ed1e5496caf30a9cd1f6d15f897695b206d9d6
+  checksum: 9042972641542744e35bdf4d8a68764fb163fa35c893e56552334aa249b58c088eb0b5490acf78671dc4d3cc144e4e9d6467b37bc469dece34424c0752ddcf83
   languageName: node
   linkType: hard
 

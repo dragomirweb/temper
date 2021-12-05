@@ -1,1 +1,5 @@
 export { default as CustomHeading } from './CustomHeading/CustomHeading.vue'
+export { default as ChevronIcon } from './ChevronIcon/ChevronIcon.vue'
+export { default as PostItem } from './PostItem/PostItem.vue'
+export { default as Button } from './Button/Button.vue'
+export { default as FancySection } from './FancySection/FancySection.vue'
