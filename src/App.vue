@@ -1,5 +1,11 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <div class="test">hello</div>
+</template>
 
-<style></style>
+<style>
+.test {
+  @apply bg-red-500;
+}
+</style>
